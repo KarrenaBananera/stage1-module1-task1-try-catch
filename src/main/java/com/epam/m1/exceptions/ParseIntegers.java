@@ -27,7 +27,7 @@ public class ParseIntegers {
             }
             catch (NumberFormatException exception)
             {
-                justWords += next + " ";
+                justWords += " " + next;
             }
             // todo: complete it
         }
